@@ -1,0 +1,597 @@
+Reset default padding and margin
+/*...................... COMMON CSS............... */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+/* Set padding for main content area */
+.main {
+  padding: 5px 100px;
+}
+.main2 {
+  padding: 5px 100px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.orange {
+  background-color: #fd4a18;
+  color: white;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.orange h5 {
+  color: #ffffff;
+  font-size: 32px;
+  text-transform: none;
+  line-height: 1.5em;
+}
+/*............... COMMON CSS ENDS .................*/
+
+/* ............................TOPBAR CSS......................  */
+/* Top bar styles */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #151515;
+  color: #fff;
+  z-index: 1;
+}
+
+/* Left side of top bar */
+.topbar__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar__left p {
+  font-size: 14px;
+  margin-left: 10px;
+  padding-right: 20px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.topbar__left span {
+  margin-left: 10px;
+}
+/* Right side of top bar */
+.topbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.topbar__right p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+/* Social media icons */
+.tweet {
+  background-color: #1da1f2;
+}
+
+.linked {
+  background-color: #0077b5;
+}
+
+.insta {
+  background-color: #e4405f;
+}
+
+.fb {
+  background-color: #1976d2;
+}
+@media only screen and (max-width: 767px) {
+  .topbar {
+    display: none;
+  }
+}
+/* ........................TOPBAR CSS ENDS....................... */
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  top: 50px !important;
+}
+.flexButton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border: solid white;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  background: "#fffff!important";
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #e4405f;
+}
+.fonts {
+  font-family: "Jost", sans-serif;
+}
+.Select-root {
+  border: none !important;
+}
+
+.Select-root:hover {
+  border: none !important;
+}
+.Select-root:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.Mui-focused {
+  outline: none;
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background: transparent !important;
+}
+.css-xi606m {
+  border: 1px solid #bfb5b5 !important;
+}
+
+/* ..........  */
+/* .zoom-out.zoomed {
+      transform: scale(1.2);
+    } */
+.zoom-out {
+  display: "block";
+  width: 100%;
+
+  overflow: hidden;
+}
+.banner img {
+  position: relative;
+}
+
+.BannerHeadings {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bannerHead {
+  z-index: 13;
+  font-family: Jost;
+
+  color: rgb(241, 93, 95);
+
+  /* line-height: 26px; */
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.BannerHead2 {
+  z-index: 10;
+  font-family: Jost;
+
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+  /* line-height: 130px; */
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 80px;
+  margin: 0px;
+}
+/* ..........  */
+.trainin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.imgPart {
+  display: flex;
+}
+.textPart {
+}
+.two {
+}
+.textPart h6 {
+  color: #f15d5f;
+  font-size: 20px;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 900;
+
+  font-family: "Jost", sans-serif;
+}
+.textPart h5 {
+  font-size: 34px;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  font-weight: 900;
+  z-index: 9;
+
+  font-family: "Jost", sans-serif;
+  margin-bottom: 5px;
+}
+.textPart p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2em;
+  z-index: 9;
+  margin-bottom: 10px;
+}
+@media (max-width: 1200px) {
+  .trainin {
+    display: block;
+  }
+  .imgPart {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .textPart {
+    width: unset;
+  }
+  .one {
+    margin-top: 20px;
+  }
+  .two {
+    position: unset;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .one {
+    display: none;
+    position: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 91%;
+  }
+}
+/* @media (max-width: 550px) {
+    .BannerHeadings {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      line-height: 2rem;
+      z-index: 1;
+    }
+  } */
+
+@media (max-width: 480px) {
+  .main2,
+  .main {
+    padding: 10px;
+  }
+}
+
+/* ................. */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.cardBox {
+  background-color: black;
+  text-align: center;
+  padding: 10px 20px;
+  padding-bottom: 180px;
+}
+
+/* .............. // */
+.hasselFree {
+  display: flex;
+  padding: 20px;
+  margin-top: -110px;
+}
+.hassel h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5em;
+}
+.hassel p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.hassel {
+  background-color: #f15d5f;
+  padding: 20px;
+}
+.hasselFree img {
+  width: 35%;
+}
+/* ..........  */
+.whyChoose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.whyChoose img {
+  width: 50%;
+}
+ul li {
+  list-style: none;
+}
+.whyChoose h5 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  margin-bottom: 30px;
+  font-family: "Jost", sans-serif;
+}
+.whytext ul li span {
+  padding: 10px;
+}
+.whytext ul li {
+  padding: 10px;
+}
+/* ...........  */
+.rivew {
+  padding: 45px 30px;
+  background-color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.imgSec {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.textSec p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: "#fd4a18";
+  display: inline-block;
+  text-transform: uppercase;
+
+  font-family: "Jost", sans-serif;
+}
+.textSec h5 {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px;
+  font-family: "Jost", sans-serif;
+}
+.rivew p {
+  margin-bottom: 15px;
+  font-family: "Jost", sans-serif;
+}
+.stars {
+  display: flex;
+}
+.cardss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+.imgSec img {
+  height: auto;
+  width: 20%;
+  border: none;
+  margin-right: 10px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.left img {
+  /* float: left; */
+  width: 25% !important;
+}
+
+.setApart h5 {
+  font-family: "Jost", sans-serif;
+  font-size: 32px !important;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+  z-index: 9;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.boxx {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.setApart {
+  padding: 50px 30px;
+}
+.ensure h5 {
+  font-family: "Jost", sans-serif;
+  font-size: 32px !important;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+  z-index: 9;
+  text-align: center;
+}
+.ensure p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.accordian {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordian img {
+  width: 50%;
+}
+.ensure {
+  padding: 20px;
+}
+.ready {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  margin: 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+.ready h5 {
+  font-size: 32px;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+.topFoot {
+  display: flex;
+  padding: 40px 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 30px 0px rgb(21 21 21 / 10%);
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+.fllex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fllex h5 {
+  font-size: 25px;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  margin: 0px;
+}
+.fllex img {
+  width: 18%;
+  margin-right: 10px;
+}
+footer {
+  margin-top: -20px;
+  background-image: url(https://yodhagtc.com/wp-content/uploads/2021/06/sss11111.png) !important;
+  background-position: center;
+  background-size: cover !important;
+  background-color: #1c1c1c;
+  color: #cccccc;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 30px;
+}
+.tw ul li {
+  padding: 10px;
+  color: orange;
+  list-style: disc;
+}
+.tw ul li span {
+  color: white;
+}
+.oo {
+  width: 40%;
+}
+.tw {
+  width: 30%;
+}
+.p {
+  margin: 20px 0px;
+  line-height: 2em;
+}
+.tw h4 {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
+.lowerFoot {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.lowerFoot p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.tou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tou p {
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+.black {
+  background-color: black;
+}
+.black {
+  padding: 50px;
+}
+.black img {
+  width: 78%;
+}
+
+.joinfor {
+  padding: 30px;
+}
+.joinfor h5 {
+  text-decoration: underline;
+  color: red;
+  margin: 30px 20px;
+  font-size: 32px;
+  text-align: center;
+}
+.joinfor ul {
+  text-align: left;
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 25px;
+  margin-bottom: 1em;
+}
+.joinfor ul li {
+  list-style: disc;
+}
+.joinfor p {
+  margin: 0cm;
+  text-align: justify;
+  line-height: 150%;
+}
+.margi {
+  padding: 20px;
+}

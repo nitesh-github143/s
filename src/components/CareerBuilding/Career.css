@@ -1,0 +1,27 @@
+.career-banner-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/career-builder-program.jpg") no-repeat;
+}
+
+.career-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.red-quote {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #fd582a;
+  font-weight: 600;
+}
+
+.black-quote {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: 600;
+}

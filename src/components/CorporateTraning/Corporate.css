@@ -1,0 +1,15 @@
+.banner-img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/corporate-training.jpg") no-repeat;
+}
+
+.text-grey {
+  margin-bottom: 10px;
+  color: #989898;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.cards-container {
+  display: flex;
+}

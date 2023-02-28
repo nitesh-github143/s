@@ -1,0 +1,11 @@
+@media screen and (max-width: 1000px) {
+  .topFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fllex {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+.banner-internship-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/career-builder-3.jpg") no-repeat;
+  background-position: center center;
+}
+
+.middle-container {
+  margin: 70px 0;
+}
+
+.top-container-text > .internship-detail {
+  color: #706e6e;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.middle-container > .top-container-text {
+  max-width: 100vw;
+  margin: 30px 0;
+}
+
+.defaultlist {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #989898;
+}
+
+.defaultlist > li {
+  list-style: disc;
+}

@@ -1,0 +1,203 @@
+.banner-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/classroom-traning.jpg") no-repeat;
+}
+
+.banner {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  min-width: 500px;
+}
+
+.banner-title {
+  font-size: 36px;
+  font-weight: 600;
+  filter: brightness(1000%);
+  max-width: 600px;
+  margin: 5px 10px;
+}
+
+.btn {
+  background-color: #fd4a18;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  min-width: 200px;
+  margin-top: 30px;
+  border: 0;
+  border: 2px solid #fd4a1800;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #fd4a18;
+  border: 2px solid #fd4a18;
+}
+
+.banner-details {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.benefits-container {
+  margin: 100px 20px 20px 20px;
+}
+
+.benefits-heading {
+  color: #f15d5f;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.5em;
+  text-align: left;
+}
+.benefits-inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.benefits-details {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.benefits-details > p {
+  color: #878787;
+}
+
+.checkmark {
+  width: 45px;
+}
+
+.note-2 {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-style: italic;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  padding: 15px;
+  border-left: 5px solid #f9f0c3;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.teaching {
+  margin-top: 100px;
+}
+
+/* complete  */
+
+.detail-container {
+  margin: 50px 20px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.top-container-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.bottom-container-text {
+  max-width: 600px;
+  text-align: left;
+  margin: 30px;
+}
+
+.bottom-img {
+  width: 601px;
+}
+
+/* text style  */
+.heading {
+  color: #f16062;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 1.5em;
+}
+
+.bottom-container-text,
+.top-container-text > p {
+  margin-bottom: 10px;
+  color: #989898;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.note {
+  font-weight: 700;
+  font-style: italic;
+  color: #3c763d;
+  background-color: #dff0d8;
+  padding: 15px;
+  border-left: 5px solid #cae6be;
+  font-size: 1rem;
+  line-height: 2;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+    text-align: center;
+  }
+  .top-container,
+  .bottom-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0 20px;
+  }
+  .banner-title,
+  .banner-details {
+    text-align: center;
+  }
+  .banner {
+    background-position: top center;
+    min-width: 100vw;
+  }
+  .detail-container {
+    margin: 50px 0px;
+  }
+
+  .top-container-text {
+    text-align: center;
+  }
+  .btn {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .banner {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-margin: 0;
+  }
+  .btn {
+    margin-left: 2px;
+  }
+}

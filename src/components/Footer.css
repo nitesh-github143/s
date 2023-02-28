@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+  .footer-container {
+    margin: 0;
+  }
+  footer,
+  .lowerFoot {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  footer ul {
+    text-align: left;
+  }
+}
