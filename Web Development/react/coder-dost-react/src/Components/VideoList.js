@@ -2,7 +2,7 @@ import React from 'react'
 import Video from './Video';
 import Playbutton from './Playbutton';
 
-const VideoList = ({ videos }) => {
+const VideoList = ({ videos, deleteVideo, editVideo }) => {
     return (
         <>
             {
@@ -14,6 +14,8 @@ const VideoList = ({ videos }) => {
                         channel={channel}
                         time={time}
                         verified={verified}
+                        deleteVideo={deleteVideo}
+                        editVideo={editVideo}
                     >
 
                         <Playbutton

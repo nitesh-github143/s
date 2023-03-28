@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const initialState = {
     title: '',
@@ -8,26 +8,35 @@ const initialState = {
     verified: true
 }
 
-const AddVideo = ({ addVideo }) => {
+const AddVideo = ({ addVideo, editableVideo, updateVideo }) => {
 
     const [video, setVideo] = useState({ initialState })
 
     function handleSubmit(e) {
         e.preventDefault()
+        if (editableVideo) {
+            updateVideo(video)
+        } else {
+            addVideo(video)
+        }
         e.stopPropagation()
-        addVideo(video)
+
         setVideo(initialState)
     }
 
     function handleChange(e) {
         e.stopPropagation()
-        // console.log(e.target.name, e.target.value)
         setVideo({
             ...video,
             [e.target.name]: [e.target.value]
         })
-        // console.log(video)
     }
+
+    useEffect(() => {
+        if (editableVideo) {
+            setVideo(editableVideo)
+        }
+    }, [editableVideo])
 
     return (
         <div>
@@ -37,9 +46,8 @@ const AddVideo = ({ addVideo }) => {
 
                 <button
                     onClick={handleSubmit}
-
                 >
-                    Add Video
+                    {editableVideo ? 'Edit' : 'Add'} Video
                 </button>
             </form>
         </div >
